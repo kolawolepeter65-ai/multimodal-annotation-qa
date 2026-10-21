@@ -1,5 +1,7 @@
 # Multimodal Annotation QA
 
+**[▶ Launch live Streamlit demo](https://multimodal-annotation-app-h3rqqbpyqvdzlw2hokzcwy.streamlit.app/)**
+
 [![Python Tests](https://github.com/kolawolepeter65-ai/multimodal-annotation-qa/actions/workflows/tests.yml/badge.svg)](https://github.com/kolawolepeter65-ai/multimodal-annotation-qa/actions/workflows/tests.yml)
 
 An image and video-frame bounding-box annotation quality assurance tool, with reproducible validations, label statistics, and auditable errors.
@@ -20,7 +22,7 @@ streamlit run app.py
 ```
 
 ## Live demo
-Deploy via [Streamlit Community Cloud](https://share.streamlit.io/) using repository `kolawolepeter65-ai/multimodal-annotation-qa`, branch `main`, entry file `app.py`. Add the public URL after deploying.
+Deploy via [Streamlit Community Cloud](https://share.streamlit.io/) using repository `kolawolepeter65-ai/multimodal-annotation-qa`, branch `main`, entry file `app.py`. Live application: [Open the multimodal annotation QA demo](https://multimodal-annotation-app-h3rqqbpyqvdzlw2hokzcwy.streamlit.app/).
 
 ## Docker
 ```bash
