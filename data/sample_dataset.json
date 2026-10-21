@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "person",
+    "car",
+    "dog"
+  ],
+  "records": [
+    {
+      "id": "image-001",
+      "media_type": "image",
+      "width": 640,
+      "height": 480,
+      "annotations": [
+        {
+          "id": "a1",
+          "label": "person",
+          "bbox": [
+            30,
+            45,
+            180,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image-002",
+      "media_type": "image",
+      "width": 640,
+      "height": 480,
+      "annotations": [
+        {
+          "id": "a1",
+          "label": "dog",
+          "bbox": [
+            600,
+            350,
+            80,
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frame-0001",
+      "media_type": "video_frame",
+      "video_id": "demo-clip",
+      "frame_index": 1,
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        {
+          "id": "obj-1",
+          "label": "car",
+          "bbox": [
+            100,
+            200,
+            400,
+            250
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frame-0002",
+      "media_type": "video_frame",
+      "video_id": "demo-clip",
+      "frame_index": 2,
+      "width": 1280,
+      "height": 720,
+      "annotations": []
+    }
+  ]
+}
